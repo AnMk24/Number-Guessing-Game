@@ -1,0 +1,61 @@
+/* Բոլոր տարրերի համար ընդհանուր ոճ */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-right: 50px;
+    
+}
+
+input, button {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* Մուտքագրելու բոքսը */
+input {
+    width: 200px;
+    
+}
+
+/* Բաժանորդագրող կոճակը */
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+/* Հաղթելու կամ սխալ մեսիջները */
+#message {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Հաղթելու ժամանակ */
+#message.win {
+    color: #4CAF50;
+}
+p{
+    color: blue;
+}
